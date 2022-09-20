@@ -6,9 +6,14 @@ function prime(num){
            }
      }
     if(counter==2){
-          console.log("prime");
+         return true;
    }else{
-          console.log("NA");
+          return false;
   }
 }
-prime(13);
+let answer=prime(13);
+if(answer==true){
+     console.log("peime");
+}else{
+    console.log("NA");
+}
